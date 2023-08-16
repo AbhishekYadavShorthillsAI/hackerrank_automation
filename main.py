@@ -8,21 +8,20 @@ Azure Ticket Link : https://dev.azure.com/ShorthillsCampus/Training%20Batch%2020
 
 """
 import os
-from dotenv import load_dotenv, dotenv_values
+from dotenv import load_dotenv
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from pynput.keyboard import Key, Controller
 
 class HackerRankAutomation:
     def __init__(self):
         self.driver = self.setup_driver()
 
     def setup_driver(self):
-        service_obj = Service('/home/shtlp_0146/Downloads/chromedriver_linux64/chromedriver')
+        service_obj = Service(os.getcwd() + '/drivers/chromedriver')
         driver = webdriver.Chrome(service=service_obj)
         return driver
 
