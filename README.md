@@ -54,3 +54,6 @@ The script `hackerrank_automation.py` performs the following actions:
 
 ## Disclaimer
 This project is for educational and automation purposes only. The author is not responsible for any unauthorized actions or misuse of this script. Use this script responsibly and only on HackerRank challenges you have the right to participate in.
+
+Demo:
+file:///home/shtlp_0146/Videos/Screencasts/hackerrank_auto.webm
