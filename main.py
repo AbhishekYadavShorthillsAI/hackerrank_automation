@@ -93,10 +93,14 @@ class HackerRankAutomation:
         select_lang = wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[6]/div/div/div/section/div/div[2]/form/div[2]/div/select/option[28]')))
         select_lang.click()
 
-        #Selecting file
-        hidden_element = self.driver.execute_script('return document.querySelector(".d-none");')
-        hidden_element.send_keys("/home/shtlp_0146/Desktop/hacker_rank_auto/submissions/loop.py")
 
+
+        #Selecting file
+        # hidden_element = self.driver.execute_script('return document.querySelector(".d-none");')
+        # hidden_element.send_keys("/home/shtlp_0146/Desktop/hacker_rank_auto/submissions/loop.py")
+        hidden_element = wait.until(EC.invisibility_of_element_located((By.CLASS_NAME, 'd-none')))
+        hidden_element.send_keys("/home/shtlp_0146/Desktop/hacker_rank_auto/submissions/loop.py")
+        
         # 3sec delay for files explorer to open
         time.sleep(1)
 
