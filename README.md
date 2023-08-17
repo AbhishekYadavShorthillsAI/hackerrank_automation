@@ -56,4 +56,4 @@ The script `hackerrank_automation.py` performs the following actions:
 This project is for educational and automation purposes only. The author is not responsible for any unauthorized actions or misuse of this script. Use this script responsibly and only on HackerRank challenges you have the right to participate in.
 
 Demo:
-[<img src="https://drive.google.com/file/d/1uXp9syMKoauPJbi69m2qBsas-cfI3asD/view?usp=sharing" width="50%">](https://drive.google.com/file/d/1xgkQcxfQm-SAth0Wxv8UAGkD1YqC0elw/view?usp=drive_link)
+[<img src="https://png.pngtree.com/png-vector/20190215/ourmid/pngtree-play-video-icon-graphic-design-template-vector-png-image_530837.jpg" width="50%">](https://drive.google.com/file/d/1xgkQcxfQm-SAth0Wxv8UAGkD1YqC0elw/view?usp=drive_link)
